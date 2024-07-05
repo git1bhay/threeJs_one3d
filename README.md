@@ -9,11 +9,7 @@ This project is a 3D car viewer application that allows users to interact with a
 - Change car colors
 - Responsive design (auto-resizes on window resize)
 
-## Setup
-1. Include the ONE3D library in your project.
-2. Ensure you have the 3D model files hosted at the specified URL:
-   `https://ee-deploy-website.s3.amazonaws.com/ee_suv/one3d/`
-3. Include this script in your HTML file.
+
 
 ## Usage
 
