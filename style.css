@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    overflow: hidden;
+}
+
+
+#control-panel {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1000; /* Ensure the control panel is on top */
+  }
+
+
+  .control-disabled {
+    pointer-events: none;
+    opacity: 0.5;
+  }
+
+#colors{
+  position: absolute;
+    top: 10px;
+    right: 2%;
+    z-index: 1000;
+    background-color: brown;
+    padding: 5px;
+    color: white;
+}
+
+button{
+  background-color: brown;
+  padding: 5px;
+  color: rgb(255, 255, 255);
+  
+}
